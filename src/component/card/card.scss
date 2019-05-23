@@ -1,0 +1,9 @@
+.MuiCardMedia-root {
+    height: 200px;
+}
+
+@media(max-width: 400px) {
+    .MuiCardMedia-root {
+        height: 100px;
+    }
+}
