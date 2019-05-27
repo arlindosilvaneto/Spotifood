@@ -1,0 +1,16 @@
+.filter-wrapper {
+    width: 100%;
+    max-width: calc(250px);
+
+    .MuiFormControl-root {
+        width: 100%;
+    }
+
+    .MuiPaper-root {
+        padding: calc(10px);
+    }
+
+    .MuiSelect-select {
+        min-width: calc(200px);
+    }
+}

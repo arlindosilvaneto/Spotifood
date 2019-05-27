@@ -1,6 +1,6 @@
 # Spotifood
 
-iFood recruitment application solution from
+iFood recruitment application solution from @arlindoneto
 
 ## Base architecture bullet points
 
@@ -9,6 +9,15 @@ iFood recruitment application solution from
 * Use of Material-UI for fast component and layout construction
 * Use of React Styleguide to visualize isolated components during development
 
+## Spotify Token
+
+As the token always get expired, when a new token become required, it should be updated in the /src/config/app.js file.
+
+## Styleguide
+
+Since there's no test for this application, during development I've used styleguidist to check the components independently.
+To run the styleguide server, use `npm run style-dev`.
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -16,10 +25,6 @@ In the project directory, you can run:
 ### `npm start`
 
 Runs the app in the development mode.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.
 
 ### `npm run build`
 
